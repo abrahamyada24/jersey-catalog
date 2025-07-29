@@ -8,7 +8,7 @@ const JerseyCatalog = () => {
     {
       id: 1,
       name: "Manchester United",
-      price: "Rp 2.500.000",
+      price: "Rp 1.500.000",
       image: "/images/mu.jpeg",
       category: "premier-league",
       club: "Manchester United"
@@ -16,7 +16,7 @@ const JerseyCatalog = () => {
     {
       id: 2,
       name: "Barcelona",
-      price: "Rp 2.750.000",
+      price: "Rp 1.750.000",
       image: "/images/barca.jpeg",
       category: "la-liga",
       club: "Barcelona"
@@ -24,7 +24,7 @@ const JerseyCatalog = () => {
     {
       id: 3,
       name: "Liverpool",
-      price: "Rp 2.600.000",
+      price: "Rp 1.600.000",
       image: "/images/livistanbul.jpeg",
       category: "premier-league",
       club: "Liverpool"
@@ -32,7 +32,7 @@ const JerseyCatalog = () => {
     {
       id: 4,
       name: "Manchester City",
-      price: "Rp 2.800.000",
+      price: "Rp 1.800.000",
       image: "/images/city.jpeg",
       category: "premier-league",
       club: "Manchester City"
@@ -40,7 +40,7 @@ const JerseyCatalog = () => {
     {
       id: 5,
       name: "AC Milan",
-      price: "Rp 2.650.000",
+      price: "Rp 1.650.000",
       image: "/images/acmilan.jpeg",
       category: "serie-a",
       club: "AC Milan"
@@ -48,7 +48,7 @@ const JerseyCatalog = () => {
     {
       id: 6,
       name: "Leeds United",
-      price: "Rp 2.550.000",
+      price: "Rp 1.550.000",
       image: "/images/leeds.jpeg",
       category: "premier-league",
       club: "Leeds United"
@@ -56,7 +56,7 @@ const JerseyCatalog = () => {
     {
       id: 7,
       name: "Croatia",
-      price: "Rp 2.900.000",
+      price: "Rp 1.900.000",
       image: "/images/croatia.jpeg",
       category: "nasional",
       club: "Croatia"
@@ -64,7 +64,7 @@ const JerseyCatalog = () => {
     {
       id: 8,
       name: "AC Padova",
-      price: "Rp 2.700.000",
+      price: "Rp 1.700.000",
       image: "/images/seriea1.jpeg",
       category: "serie-a",
       club: "AC Padova"
@@ -135,10 +135,15 @@ const JerseyCatalog = () => {
         <div className="container mx-auto px-4 py-6">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
-              <div className="bg-white p-2 rounded-lg">
-                <svg className="w-8 h-8 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 2L2 7v10c0 5.55 3.84 12 9 12s9-6.45 9-12V7l-10-5z"/>
-                </svg>
+              <div className="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-volleyball-icon lucide-volleyball">
+              <path d="M11.1 7.1a16.55 16.55 0 0 1 10.9 4"/>
+              <path d="M12 12a12.6 12.6 0 0 1-8.7 5"/>
+              <path d="M16.8 13.6a16.55 16.55 0 0 1-9 7.5"/>
+              <path d="M20.7 17a12.8 12.8 0 0 0-8.7-5 13.3 13.3 0 0 1 0-10"/>
+              <path d="M6.3 3.8a16.55 16.55 0 0 0 1.9 11.5"/>
+              <circle cx="12" cy="12" r="10"/>
+              </svg>
               </div>
               <h1 className="text-3xl font-bold">Jersey Original</h1>
             </div>
@@ -284,9 +289,14 @@ const JerseyCatalog = () => {
       <footer className="bg-gray-900 text-white py-12">
         <div className="container mx-auto px-4 text-center">
           <div className="flex items-center justify-center space-x-3 mb-6">
-            <div className="bg-gradient-to-r from-blue-600 to-purple-600 p-3 rounded-lg">
-              <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 2L2 7v10c0 5.55 3.84 12 9 12s9-6.45 9-12V7l-10-5z"/>
+            <div className="">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-volleyball-icon lucide-volleyball">
+              <path d="M11.1 7.1a16.55 16.55 0 0 1 10.9 4"/>
+              <path d="M12 12a12.6 12.6 0 0 1-8.7 5"/>
+              <path d="M16.8 13.6a16.55 16.55 0 0 1-9 7.5"/>
+              <path d="M20.7 17a12.8 12.8 0 0 0-8.7-5 13.3 13.3 0 0 1 0-10"/>
+              <path d="M6.3 3.8a16.55 16.55 0 0 0 1.9 11.5"/>
+              <circle cx="12" cy="12" r="10"/>
               </svg>
             </div>
             <h3 className="text-2xl font-bold">Jersey Original</h3>
