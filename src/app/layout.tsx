@@ -15,7 +15,12 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Jersey Original",
   description: "JualJersey Original Terpercaya",
+  icons: {
+    icon: '/favicon.svg',
+  },
 };
+
+
 
 export default function RootLayout({
   children,
