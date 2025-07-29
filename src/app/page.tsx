@@ -8,7 +8,7 @@ const JerseyCatalog = () => {
     {
       id: 1,
       name: "Manchester United",
-      price: "Rp 1.500.000",
+      price: "Rp ????.000",
       image: "/images/mu.jpeg",
       category: "premier-league",
       club: "Manchester United"
@@ -16,7 +16,7 @@ const JerseyCatalog = () => {
     {
       id: 2,
       name: "Barcelona",
-      price: "Rp 1.750.000",
+      price: "Rp ????.000",
       image: "/images/barca.jpeg",
       category: "la-liga",
       club: "Barcelona"
@@ -24,7 +24,7 @@ const JerseyCatalog = () => {
     {
       id: 3,
       name: "Liverpool",
-      price: "Rp 1.600.000",
+      price: "Rp ????.000",
       image: "/images/livistanbul.jpeg",
       category: "premier-league",
       club: "Liverpool"
@@ -32,7 +32,7 @@ const JerseyCatalog = () => {
     {
       id: 4,
       name: "Manchester City",
-      price: "Rp 1.800.000",
+      price: "Rp ????.000",
       image: "/images/city.jpeg",
       category: "premier-league",
       club: "Manchester City"
@@ -40,7 +40,7 @@ const JerseyCatalog = () => {
     {
       id: 5,
       name: "AC Milan",
-      price: "Rp 1.650.000",
+      price: "Rp ????.000",
       image: "/images/acmilan.jpeg",
       category: "serie-a",
       club: "AC Milan"
@@ -48,7 +48,7 @@ const JerseyCatalog = () => {
     {
       id: 6,
       name: "Leeds United",
-      price: "Rp 1.550.000",
+      price: "Rp ????.000",
       image: "/images/leeds.jpeg",
       category: "premier-league",
       club: "Leeds United"
@@ -56,7 +56,7 @@ const JerseyCatalog = () => {
     {
       id: 7,
       name: "Croatia",
-      price: "Rp 1.900.000",
+      price: "Rp ????.000",
       image: "/images/croatia.jpeg",
       category: "nasional",
       club: "Croatia"
@@ -64,7 +64,7 @@ const JerseyCatalog = () => {
     {
       id: 8,
       name: "AC Padova",
-      price: "Rp 1.700.000",
+      price: "Rp ????.000",
       image: "/images/seriea1.jpeg",
       category: "serie-a",
       club: "AC Padova"
