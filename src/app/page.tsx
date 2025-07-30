@@ -101,7 +101,7 @@ const JerseyCatalog = () => {
     <div className="bg-white rounded-xl shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-2xl">
       <div className="relative">
         <img 
-          src={jersey.image} 
+          src={jersey.image}
           alt={jersey.name}
           className="w-full h-64 object-cover"
         />
@@ -131,7 +131,7 @@ const JerseyCatalog = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
-      <header className="bg-gradient-to-r from-blue-600 to-purple-700 text-white shadow-xl">
+      <header className="bg-gradient-to-r from-blue-600 to-blue-700 text-white shadow-xl">
         <div className="container mx-auto px-4 py-6">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
@@ -158,16 +158,27 @@ const JerseyCatalog = () => {
       </header>
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-blue-600 via-purple-600 to-blue-800 text-white py-20 relative overflow-hidden">
+      {/* <section className="bg-gradient-to-br from-blue-600 via-purple-600 to-blue-800 text-white py-20 relative overflow-hidden"> */}
+        <section className="text-white py-20 relative overflow-hidden" style={{
+  backgroundImage: `linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url('/images/champions-league-bg.jpg')`,
+  backgroundSize: 'cover',
+  backgroundPosition: 'center',
+  backgroundRepeat: 'no-repeat'
+}}>
         <div className="absolute inset-0 bg-black opacity-20"></div>
         <div className="container mx-auto px-4 text-center relative z-10">
           <h2 className="text-6xl font-bold mb-6 animate-pulse">Jersey Original Terlengkap</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto leading-relaxed">
             Koleksi jersey original dari berbagai klub terbaik dunia. Kualitas seperti baru, keaslian terjamin!
           </p>
-          <button className="bg-gradient-to-r from-yellow-400 to-orange-500 text-gray-900 px-10 py-4 rounded-full font-bold text-lg hover:from-yellow-300 hover:to-orange-400 transition-all duration-300 transform hover:scale-105 shadow-lg">
+          {/* <button className="bg-gradient-to-r from-yellow-400 to-orange-500 text-gray-900 px-10 py-4 rounded-full font-bold text-lg hover:from-yellow-300 hover:to-orange-400 transition-all duration-300 transform hover:scale-105 shadow-lg">
             Lihat Katalog 🏆
-          </button>
+          </button> */}
+          <a 
+          href="#katalog"
+          className="bg-gradient-to-r from-yellow-400 to-orange-500 text-gray-900 px-10 py-4 rounded-full font-bold text-lg hover:from-yellow-300 hover:to-orange-400 transition-all duration-300 transform hover:scale-105 shadow-lg inline-block"
+>
+  Lihat Katalog 🏆</a>
         </div>
       </section>
 
